@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.content{
+    width: 306px;
+    height: 306px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
